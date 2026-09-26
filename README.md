@@ -1,5 +1,7 @@
 # Product Search API (Semantic Vector Search)
 
+[![CI](https://github.com/rahulmaity0/product-search-api/actions/workflows/ci.yml/badge.svg)](https://github.com/rahulmaity0/product-search-api/actions/workflows/ci.yml)
+
 An AI-powered Semantic Product Search REST API built with **Spring Boot 4.1**, **Spring AI**, **Spring Data JPA**, and **PostgreSQL (pgvector)**.
 
 ## 🚀 Key Features

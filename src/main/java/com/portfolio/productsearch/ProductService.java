@@ -30,6 +30,6 @@ public class ProductService {
 
     public List<Document> searchProducts(String query) {
         // Perform a semantic similarity search
-        return vectorStore.similaritySearch(SearchRequest.query(query).withTopK(5));
+        return vectorStore.similaritySearch(SearchRequest.builder().query(query).topK(5).build());
     }
 }

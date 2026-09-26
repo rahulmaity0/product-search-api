@@ -1,6 +1,6 @@
 # Product Search API (Semantic Vector Search)
 
-An AI-powered Semantic Product Search REST API built with **Spring Boot 3.3**, **Spring AI**, **Spring Data JPA**, and **PostgreSQL (pgvector)**.
+An AI-powered Semantic Product Search REST API built with **Spring Boot 4.1**, **Spring AI**, **Spring Data JPA**, and **PostgreSQL (pgvector)**.
 
 ## 🚀 Key Features
 - **Semantic Similarity Search**: Performs cosine similarity search over product descriptions using vector embeddings instead of brittle exact keyword matches.
@@ -9,8 +9,8 @@ An AI-powered Semantic Product Search REST API built with **Spring Boot 3.3**, *
 
 ## 🛠️ Tech Stack
 - **Java 17**
-- **Spring Boot 3.3.3**
-- **Spring AI (1.0.0-M1)** (OpenAI & pgvector Store Starters)
+- **Spring Boot 4.1**
+- **Spring AI 2.0** (OpenAI & pgvector Store Starters)
 - **Spring Data JPA / Hibernate**
 - **PostgreSQL / pgvector**
 - **Maven** & **Lombok**
